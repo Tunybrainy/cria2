@@ -111,10 +111,10 @@ const Nav = () => {
           
       <div className="md:hidden hidden" id="mobile-menu">
        <ul className="flex flex-col items-center space-y-2 bg-green-200 p-4 text-green-900">
-        <li><a href="#" className="hover:bg-green-300 px-3 py-1 rounded-md">Index</a></li>
-      <li><a href="#" className="hover:bg-green-300 px-3 py-1 rounded-md">Mission</a></li>
-      <li><a href="#" className="hover:bg-green-300 px-3 py-1 rounded-md">Contact</a></li>
-      <a href="#" className="inline-block px-4 py-2 text-green-900 border
+        <li><a href="/index" className="hover:bg-green-300 px-3 py-1 rounded-md">Index</a></li>
+      <li><a href="/mission" className="hover:bg-green-300 px-3 py-1 rounded-md">Mission</a></li>
+      <li><a href="/contacts" className="hover:bg-green-300 px-3 py-1 rounded-md">Contact</a></li>
+      <a href="/index" className="inline-block px-4 py-2 text-green-900 border
        border-green-900 rounded-full hover:bg-green-300">
         View All Agencies
         </a>
